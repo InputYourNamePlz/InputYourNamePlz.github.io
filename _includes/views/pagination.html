@@ -18,7 +18,7 @@
       {%- assign posts = site.posts
         | where_exp: "item", "item.top > 0"
         | sort: "top" -%}
-      {%- for post in site.posts -%}
+      {%- for post in posts -%}
         {%- include views/pagination-item.html -%}
       {%- endfor -%}
     {%- endif -%}
