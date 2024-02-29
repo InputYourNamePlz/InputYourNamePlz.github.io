@@ -1,0 +1,6 @@
+# Translate languages
+# langs refer to https://cloud.google.com/translate/docs/languages
+
+- lang: ko
+  img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+  text: Korean
